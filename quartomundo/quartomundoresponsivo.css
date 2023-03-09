@@ -1,0 +1,61 @@
+@media (max-width: 800px){
+    html{
+      font-size: 42.5%;
+    }
+    .conteudo{
+   
+      margin-left: 0px;
+      padding: 45px 40px;
+      width: 300px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .imagens-slides .slide{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .seta-voltar .imagem-seta, .seta-avancar .imagem-seta{
+      width: 20px;
+      height: 20px;
+    }
+    .conteudo .titulo{
+      margin-bottom: 10px;
+      
+    }
+    .conteudo .texto{
+      margin-bottom: 30px;
+      
+    }
+    .seta-voltar{
+      left: 2%;
+     
+    }
+    .seta-avancar{
+      right: 2%;
+    }
+    .mundo{
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .mundo > p{
+      font-size: 15px;
+      margin-left: 0px;
+    
+    }
+    .dado{
+      display: flex;
+      justify-content: space-around;
+      margin-left: 50px;
+      margin-right: 50px;
+      flex-direction: column;
+      
+    }
+
+  }

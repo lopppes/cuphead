@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+    .primeiros-cards{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+
+     }
+     .segundos-cards{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       
+     }
+}

@@ -1,0 +1,27 @@
+@media (max-width: 1000px) {
+    .primeiros-cards{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+
+     }
+     .segundos-cards{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       
+     }
+}
+@media (max-width: 650px){
+.mySlides > img{
+    border-radius: 20px;
+    height: 300px;
+   
+  }
+  .text {
+
+    font-size: 11px;
+  }
+}
